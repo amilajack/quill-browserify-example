@@ -1,0 +1,32 @@
+{
+  "name": "quill-browserify-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amilajack/quill-browserify-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amilajack/quill-browserify-example/issues"
+  },
+  "homepage": "https://github.com/amilajack/quill-browserify-example#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-quill-sql": "^1.1.1"
+  }
+}
